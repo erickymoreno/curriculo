@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.pagina{
+    background-color: #000380;
+    background: linear-gradient(135deg, rgba(0,3,128,1) 22%, rgba(0,3,128,1) 28%, rgba(0,3,124,1) 57%, rgba(1,1,72,1) 79%, rgba(2,0,36,1) 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.foto{
+     border: 2px solid #ffffff;
+     border-radius: 100%;
+     margin: 10px;
+}
+.titulo{
+color: #ffffff;
+text-shadow: 2px 2px #000000;
+margin: 10px;
+}
+.texto{
+    color: #ffffff;
+    text-align: center;
+    max-width: 80%;
+    margin: 20px;
+}
+
+.links > a{
+    margin: 10px;
+}
